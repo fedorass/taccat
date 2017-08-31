@@ -1,0 +1,56 @@
+<main> 
+    <!-- Main Container -->
+    <div class="container">
+
+        <div class="row">
+            
+            <!-- Sidebar -->
+            <div class="col-lg-4 filter-menu">                
+                <app-categories></app-categories>                                                            
+            </div>
+            <!-- /.Sidebar -->
+
+            <!-- Content -->
+            <div class="col-lg-8">
+                
+                <!-- Filter Area -->
+                <!-- TBD -->
+                <!-- Products Grid -->
+                <section class="section">
+                    
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-6 mb-1">
+                            <app-product [product]="products[0]"></app-product>
+                        </div>
+                        <div class="col-lg-6 col-sm-6 mb-1">                            
+                            <app-product [product]="products[1]"></app-product>                            
+                        </div>                       
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-6 mb-1">
+                            <app-product [product]="products[2]"></app-product>                            
+                        </div>
+                        <div class="col-lg-6 col-sm-6 mb-1">
+                            <app-product [product]="products[3]"></app-product>                                                        
+                        </div>
+                    </div>
+
+                    <div class="row">                        
+                        <div class="col-lg-6 col-sm-6 mb-1">                            
+                            <app-product [product]="products[4]"></app-product>                            
+                        </div>
+                        <div class="col-lg-6 col-sm-6 mb-1">                            
+                            <app-product [product]="products[5]"></app-product>                            
+                        </div>
+                    </div>
+
+                </section>
+
+            </div>
+
+        </div>
+        
+    </div>
+    
+</main>
